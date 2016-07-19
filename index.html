@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery购物车效果</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="http://libs.useso.com/js/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="fly-master/dist/jquery.fly.min.js"></script>
+		<script type="text/javascript" src="javscript/car.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/car.css">
+	</head>
+	<body>
+		<h1>jQuery购物车效果</h1>
+		<div id="main">
+			<div class="boxs">
+				<div class="box">
+					<div class="information">
+						<img src="images/1.jpg" height="210" width="280">
+						<h3 class="color-red">￥5099-5999</h3>
+						<p>联想 IdeaPad 710S系列<span class="color-red">全金属轻薄外观，窄边框屏幕设计，双风扇智能化控制</span></p>
+					</div>
+					<button class="btn orange addcar">加入购物车</button>
+				</div>
+				<div class="box">
+					<div class="information">
+						<img src="images/2.jpg" height="210" width="280">
+						<h3 class="color-red">￥2299-3499</h3>
+						<p>神舟 战神 K610D系列<span class="color-red">1080P全高清屏，黑色孤岛键盘，2G性能级独显</span></p>
+					</div>
+					<button class="btn orange addcar">加入购物车</button>
+				</div>
+				<div class="box">
+					<div class="information">
+						<img src="images/3.jpg" height="210" width="280">
+						<h3 class="color-red">￥5488-2.01万</h3>
+						<p>微软 Surface Pro 4系列<span class="color-red">金属机身，PixelSense触控屏，长效续航</span></p>
+					</div>
+					<button class="btn orange addcar">加入购物车</button> 
+				</div>
+			</div>
+		</div>
+		<div class="sidebar">
+			<div class="putInCar">
+				<span class="carimg" id="carimg"></span>
+				<span class="cartext">购物车</span>
+			</div>
+		</div>
+		<div id="success" class="hint">
+			已成功加入到购物车
+		</div>
+
+	</body>
+</html>
